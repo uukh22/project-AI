@@ -3,6 +3,15 @@
 ### Overview
 TThe N-Queens problem is a classic problem in combinatorial optimization, where the goal is to place N chess queens on an N×N chessboard so that no two queens threaten each other.
 
+### How the genetic algorithm solves the n-queen problem?
+- Step 1: A random chromosome is generated
+- Step 2: Fitness value of the chromosome is calculated
+- Step 3: If fitness is not equal to Fmax
+- Step 4: Reproduce (crossover) new chromosome from 2 randomly selected best chromosomes
+- Step 5: Mutation may take place
+- Step 6: New chromosome added to population
+- Repeat Step 2 to 6 until a chromosome (solution) with Fitness value = Fmax is found
+
 ### Features
 
 1. **Genetic Algorithm :**
