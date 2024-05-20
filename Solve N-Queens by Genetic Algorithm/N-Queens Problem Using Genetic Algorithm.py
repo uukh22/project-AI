@@ -96,6 +96,12 @@ def genetic_queen(population, maxFitness):
         new_population.append(child)
         if fitness(child, maxFitness) == maxFitness:
             break
+
+    # Print chromosomes and fitness for each generation
+    print("=== Generation {} ===".format(generation))
+    for chromosome in new_population:
+        print("Chromosome: {}, Fitness: {}".format(chromosome, fitness(chromosome, maxFitness)))
+
     return new_population
 
 # prints given chromosome
