@@ -1,7 +1,7 @@
 ## Solve N-Queens by Genetic Algorithm
 
 ### Overview
-TThe N-Queens problem is a classic problem in combinatorial optimization, where the goal is to place N chess queens on an N×N chessboard so that no two queens threaten each other.
+The N-Queens problem is a classic problem in combinatorial optimization, where the goal is to place N chess queens on an N×N chessboard so that no two queens threaten each other.
 
 ### How the genetic algorithm solves the n-queen problem?
 - Step 1: A random chromosome is generated
